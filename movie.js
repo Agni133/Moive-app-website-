@@ -65,6 +65,7 @@ const API_URL = 'https://api.themoviedb.org/3/discover/movie?sort_by=popularity.
         search.value = '';
       } else {
         window.location.reload();
+        console.log(alert(" CART IS EMPTY "));
       }
-      console.log(alert(" CART IS EMPTY "));
+      
     });
